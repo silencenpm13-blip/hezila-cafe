@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hezila Cafe | Bangalore</title>
-  <meta name="description" content="Hezila Cafe — smoky Indo-Chinese and Italian comfort food, crafted fresh in the heart of Indiranagar, Bangalore." />
+  <meta name="description" content="Hezila Cafe — Indo-Chinese, Italian, and specialty drinks in the heart of Indiranagar, Bangalore. Open daily 11 AM – 11 PM." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
@@ -12,10 +12,9 @@
 </head>
 <body>
 
-  <!-- grain overlay -->
   <div class="grain" aria-hidden="true"></div>
 
-  <!-- ════════ NAV ════════ -->
+  <!-- ══ NAV ══════════════════════════════ -->
   <header class="site-header" id="top">
     <div class="nav-inner">
       <a class="logo" href="#top">Hezila</a>
@@ -31,8 +30,22 @@
     </div>
   </header>
 
-  <!-- ════════ HERO ════════ -->
-  <section class="hero" aria-label="Hero">
+  <!-- ══ HERO — full bleed image ══════════ -->
+  <section class="hero" aria-label="Welcome to Hezila">
+    <div class="hero-bg" aria-hidden="true">
+      <!--
+        Unsplash: warm-lit cafe interior — free to use (Unsplash License)
+        photographer: Mike Kenneally  unsplash.com/@asthetik
+      -->
+      <img
+        src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1800&q=85&auto=format&fit=crop"
+        alt=""
+        loading="eager"
+        fetchpriority="high"
+      />
+    </div>
+    <div class="hero-veil" aria-hidden="true"></div>
+
     <div class="hero-content">
       <p class="eyebrow">
         <span>Bangalore</span>
@@ -40,22 +53,23 @@
         <span>Since 2021</span>
       </p>
       <h1>
-        <span class="line-one">Sleek cafe vibes,</span>
-        <em class="line-two">bold flavors.</em>
+        <span class="h1-a">Sleek cafe vibes,</span>
+        <em class="h1-b">bold flavors.</em>
       </h1>
       <p class="hero-sub">A story of distance, silence, and finding home.</p>
-      <div class="hero-actions">
-        <a href="#menu"    class="btn btn-solid">Explore Menu</a>
-        <a href="#contact" class="btn btn-ghost">Reserve a Table</a>
+      <div class="hero-cta">
+        <a href="#menu"    class="btn btn-gold">Explore Menu</a>
+        <a href="#contact" class="btn btn-ghost-lt">Reserve a Table</a>
       </div>
     </div>
+
     <div class="hero-scroll" aria-hidden="true">
       <span class="scroll-line"></span>
-      <span class="scroll-text">scroll</span>
+      <span class="scroll-word">scroll</span>
     </div>
   </section>
 
-  <!-- ════════ STORY PANEL 01 ════════ -->
+  <!-- ══ STORY PANEL 01 ═══════════════════ -->
   <section class="panel" data-reveal>
     <div class="panel__copy">
       <span class="panel__num">01</span>
@@ -67,7 +81,7 @@
     </div>
   </section>
 
-  <!-- ════════ STORY PANEL 02 ════════ -->
+  <!-- ══ STORY PANEL 02 ═══════════════════ -->
   <section class="panel panel--flip" data-reveal>
     <div class="panel__copy">
       <span class="panel__num">02</span>
@@ -79,7 +93,7 @@
     </div>
   </section>
 
-  <!-- ════════ CINEMATIC PAUSE ════════ -->
+  <!-- ══ CINEMATIC PAUSE ══════════════════ -->
   <section class="pause" data-reveal aria-label="Story pause">
     <div class="pause__bg">
       <img src="/images/Hezila.jpg" loading="lazy" alt="A quiet corner of Hezila Cafe" />
@@ -91,7 +105,7 @@
     </blockquote>
   </section>
 
-  <!-- ════════ FULL STORY ════════ -->
+  <!-- ══ FULL STORY ════════════════════════ -->
   <section class="story" id="about" data-reveal>
     <div class="story__inner">
       <div class="story__head">
@@ -106,15 +120,15 @@
         <p>And sometimes, nothing was said at all.</p>
         <p>But somehow, they always found their way back — to conversations that stretched for hours, to laughter that made the distance disappear, to a quiet understanding the kind you don't question, only feel.</p>
         <p>What they built wasn't loud or hurried. It was slow. Intentional. Patient. A kind of love that doesn't ask to be seen — but quietly becomes the most important part of your day.</p>
-        <p>Hezila Café was born from that feeling. A space imagined in between conversations. In shared silence. In the in-between moments no one talks about, but everyone remembers.</p>
-        <p>It is not just a café. It is a reflection of finding peace in another person — even when the world feels uncertain. A place where time slows down. Where moments are meant to be felt, not rushed.</p>
+        <p>Hezila Café was born from that feeling. A space imagined in between conversations — in shared silence, in the in-between moments no one talks about, but everyone remembers.</p>
+        <p>It is not just a café. It is a reflection of finding peace in another person, even when the world feels uncertain. A place where time slows down, where moments are meant to be felt, not rushed.</p>
         <p class="story__close">Because at the end of it all, no matter how far life took them, they always found the same thing waiting — <em>each other.</em></p>
       </div>
     </div>
   </section>
 
-  <!-- ════════ CUISINE PILLARS ════════ -->
-  <section class="pillars" data-reveal aria-label="Cuisine pillars">
+  <!-- ══ CUISINE PILLARS ═══════════════════ -->
+  <section class="pillars" data-reveal>
     <div class="pillars__inner">
       <div class="pillar">
         <span class="pillar__roman">I</span>
@@ -124,87 +138,397 @@
       <div class="pillar__rule" aria-hidden="true"></div>
       <div class="pillar pillar--r">
         <span class="pillar__roman">II</span>
+        <h3>Momos</h3>
+        <p>Steamed or fried, with fillings that comfort. Served fresh with our signature house dip.</p>
+      </div>
+      <div class="pillar__rule" aria-hidden="true"></div>
+      <div class="pillar">
+        <span class="pillar__roman">III</span>
         <h3>Italian</h3>
         <p>Slow-cooked comfort. Creamy pastas, stone-baked flatbreads, herb-forward and unhurried.</p>
       </div>
     </div>
   </section>
 
-  <!-- ════════ MENU ════════ -->
-  <section class="menu" id="menu" data-reveal aria-label="Menu">
-    <div class="menu__inner">
+  <!-- ══ MENU ══════════════════════════════ -->
+  <section class="menu-section" id="menu" data-reveal aria-label="Menu">
+    <div class="menu-inner">
 
-      <div class="menu__head">
+      <div class="menu-head">
         <h2>The Menu</h2>
-        <p>Choose a chapter &nbsp;·&nbsp; Prices in ₹</p>
+        <p>Choose a chapter &nbsp;·&nbsp; Prices in ₹ &nbsp;·&nbsp; <span class="menu-spice">🌶 = Spicy &nbsp; 🐔 = Non-Veg</span></p>
       </div>
 
       <div class="tabs" role="tablist" aria-label="Menu categories">
-        <button class="tab active" role="tab" aria-selected="true"  aria-controls="t-indo" data-tab="t-indo">Indo-Chinese</button>
-        <button class="tab"        role="tab" aria-selected="false" aria-controls="t-ita"  data-tab="t-ita">Italian</button>
-        <button class="tab"        role="tab" aria-selected="false" aria-controls="t-cafe" data-tab="t-cafe">Café &amp; Drinks</button>
+        <button class="tab active" role="tab" aria-selected="true"  aria-controls="t-ic"    data-tab="t-ic">Indo-Chinese</button>
+        <button class="tab"        role="tab" aria-selected="false" aria-controls="t-momos" data-tab="t-momos">Momos</button>
+        <button class="tab"        role="tab" aria-selected="false" aria-controls="t-ita"   data-tab="t-ita">Italian</button>
+        <button class="tab"        role="tab" aria-selected="false" aria-controls="t-cafe"  data-tab="t-cafe">Café &amp; Drinks</button>
       </div>
 
       <div class="panels">
 
-        <div class="panel-body active" id="t-indo" role="tabpanel">
+        <!-- ─ INDO-CHINESE ─ -->
+        <div class="panel-body active" id="t-ic" role="tabpanel">
+
+          <div class="menu-subhead">Noodles &amp; Rice</div>
+
           <div class="dish dish--lead">
-            <div class="dish__row"><h3>Chilli Garlic Noodles</h3><span>₹349</span></div>
-            <p>wok tossed noodles, garlic, chilli oil</p>
+            <div class="dish__row">
+              <h3>Chilli Garlic Noodles <span class="badge spicy">🌶</span></h3>
+              <span class="price">₹349</span>
+            </div>
+            <p>wok tossed noodles, garlic, chilli oil, spring onion</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Veg / Chicken Manchurian</h3><span>₹379</span></div>
-            <p>crispy dumplings, soy glaze, capsicum, onion</p>
+            <div class="dish__row">
+              <h3>Chicken Hakka Noodles <span class="badge nonveg">🐔</span></h3>
+              <span class="price">₹379</span>
+            </div>
+            <p>shredded chicken, hakka noodles, soy, sesame, vegetables</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Schezwan Fried Rice</h3><span>₹329</span></div>
-            <p>smoky rice, schezwan sauce, vegetables</p>
+            <div class="dish__row">
+              <h3>Schezwan Fried Rice <span class="badge spicy">🌶</span></h3>
+              <span class="price">₹329</span>
+            </div>
+            <p>smoky rice, schezwan sauce, mixed vegetables</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Crispy Lotus Stem</h3><span>₹299</span></div>
+            <div class="dish__row">
+              <h3>Chicken Fried Rice <span class="badge nonveg">🐔</span></h3>
+              <span class="price">₹369</span>
+            </div>
+            <p>wok rice, egg, chicken strips, dark soy, spring onion</p>
+          </div>
+
+          <div class="menu-subhead">Starters &amp; Sides</div>
+
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Veg Manchurian Dry / Gravy</h3>
+              <span class="price">₹339</span>
+            </div>
+            <p>crispy vegetable balls, soy-ginger glaze, capsicum, onion</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Chicken Manchurian Dry / Gravy <span class="badge nonveg">🐔</span></h3>
+              <span class="price">₹389</span>
+            </div>
+            <p>crispy chicken, dark soy glaze, green chilli, spring onion</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Paneer Chilli Dry <span class="badge spicy">🌶</span></h3>
+              <span class="price">₹359</span>
+            </div>
+            <p>charred paneer cubes, bell peppers, garlic soy reduction</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Dragon Chicken <span class="badge nonveg">🐔</span><span class="badge spicy">🌶</span></h3>
+              <span class="price">₹419</span>
+            </div>
+            <p>deep fried chicken, dragon sauce, cashews, dried red chilli</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Honey Chilli Potato <span class="badge spicy">🌶</span></h3>
+              <span class="price">₹279</span>
+            </div>
+            <p>crispy potato fingers, honey chilli glaze, sesame, spring onion</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Crispy Lotus Stem</h3>
+              <span class="price">₹299</span>
+            </div>
             <p>honey chilli glaze, sesame, crunchy lotus stem</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Paneer Chilli Dry</h3><span>₹359</span></div>
-            <p>charred paneer cubes, bell peppers, garlic soy reduction</p>
+            <div class="dish__row">
+              <h3>Kung Pao Mushroom <span class="badge spicy">🌶</span></h3>
+              <span class="price">₹339</span>
+            </div>
+            <p>button mushrooms, peanuts, dried chilli, sichuan pepper, soy</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Chilli Chicken Dry <span class="badge nonveg">🐔</span><span class="badge spicy">🌶</span></h3>
+              <span class="price">₹399</span>
+            </div>
+            <p>battered chicken, green chilli, capsicum, dark soy reduction</p>
           </div>
         </div>
 
-        <div class="panel-body" id="t-ita" role="tabpanel">
+        <!-- ─ MOMOS ─ -->
+        <div class="panel-body" id="t-momos" role="tabpanel">
+
+          <div class="menu-subhead">Steamed</div>
+
           <div class="dish dish--lead">
-            <div class="dish__row"><h3>Truffle Cream Pasta</h3><span>₹449</span></div>
+            <div class="dish__row">
+              <h3>Veg Steam Momos</h3>
+              <span class="price">₹249</span>
+            </div>
+            <p>cabbage, carrot, ginger, garlic, served with house chilli dip</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Chicken Steam Momos <span class="badge nonveg">🐔</span></h3>
+              <span class="price">₹279</span>
+            </div>
+            <p>minced chicken, ginger, spring onion, served with house chilli dip</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Paneer Steam Momos</h3>
+              <span class="price">₹269</span>
+            </div>
+            <p>spiced paneer, onion, coriander, served with house chilli dip</p>
+          </div>
+
+          <div class="menu-subhead">Fried</div>
+
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Veg Fried Momos</h3>
+              <span class="price">₹269</span>
+            </div>
+            <p>crisp pan-fried, cabbage-ginger filling, house chilli dip</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Chicken Fried Momos <span class="badge nonveg">🐔</span></h3>
+              <span class="price">₹299</span>
+            </div>
+            <p>golden crispy, minced chicken, soy-sesame dip</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Paneer Fried Momos</h3>
+              <span class="price">₹289</span>
+            </div>
+            <p>crispy pockets, spiced paneer, mint chutney dip</p>
+          </div>
+
+          <div class="menu-subhead">Specialty</div>
+
+          <div class="dish dish--lead">
+            <div class="dish__row">
+              <h3>Tandoori Momos <span class="badge spicy">🌶</span></h3>
+              <span class="price">₹319</span>
+            </div>
+            <p>char-grilled in tandoor, smoked paprika marinade, mint dip — veg or chicken</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Chilli Oil Momos <span class="badge spicy">🌶</span></h3>
+              <span class="price">₹299</span>
+            </div>
+            <p>steamed dumplings tossed in house chilli crisp, sesame, scallion</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Jhol Momos <span class="badge spicy">🌶</span></h3>
+              <span class="price">₹309</span>
+            </div>
+            <p>steamed momos in a tangy tomato-sesame broth, served warm — veg or chicken</p>
+          </div>
+        </div>
+
+        <!-- ─ ITALIAN ─ -->
+        <div class="panel-body" id="t-ita" role="tabpanel">
+
+          <div class="menu-subhead">Pasta</div>
+
+          <div class="dish dish--lead">
+            <div class="dish__row">
+              <h3>Truffle Cream Pasta</h3>
+              <span class="price">₹449</span>
+            </div>
             <p>cream sauce, parmesan, wild mushrooms, truffle aroma</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Aglio e Olio</h3><span>₹329</span></div>
+            <div class="dish__row">
+              <h3>Chicken Alfredo <span class="badge nonveg">🐔</span></h3>
+              <span class="price">₹479</span>
+            </div>
+            <p>grilled chicken strips, classic alfredo, parmesan, black pepper</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Aglio e Olio</h3>
+              <span class="price">₹329</span>
+            </div>
             <p>olive oil, roasted garlic, parsley, chilli flakes</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Margherita Flatbread</h3><span>₹399</span></div>
+            <div class="dish__row">
+              <h3>Chicken Pesto Pasta <span class="badge nonveg">🐔</span></h3>
+              <span class="price">₹429</span>
+            </div>
+            <p>basil pesto, grilled chicken, sun-dried tomatoes, pine nuts</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Arrabbiata <span class="badge spicy">🌶</span></h3>
+              <span class="price">₹329</span>
+            </div>
+            <p>spicy tomato sauce, capers, fresh basil, penne</p>
+          </div>
+
+          <div class="menu-subhead">Flatbreads</div>
+
+          <div class="dish dish--lead">
+            <div class="dish__row">
+              <h3>Margherita</h3>
+              <span class="price">₹399</span>
+            </div>
             <p>fresh tomato base, mozzarella, basil, stone baked crust</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Mushroom Risotto</h3><span>₹479</span></div>
+            <div class="dish__row">
+              <h3>Chicken BBQ Flatbread <span class="badge nonveg">🐔</span></h3>
+              <span class="price">₹449</span>
+            </div>
+            <p>smoky BBQ sauce, pulled chicken, caramelised onion, mozzarella</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Wild Mushroom &amp; Brie</h3>
+              <span class="price">₹429</span>
+            </div>
+            <p>mixed mushrooms, brie, walnut, thyme, honey drizzle</p>
+          </div>
+
+          <div class="menu-subhead">Risotto &amp; Sides</div>
+
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Mushroom Risotto</h3>
+              <span class="price">₹479</span>
+            </div>
             <p>arborio rice, porcini stock, parmesan, buttered mushrooms</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Chicken Lemon Risotto <span class="badge nonveg">🐔</span></h3>
+              <span class="price">₹499</span>
+            </div>
+            <p>arborio, poached chicken, preserved lemon, asparagus, parmesan</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Garlic Focaccia</h3>
+              <span class="price">₹199</span>
+            </div>
+            <p>rosemary, sea salt, roasted garlic butter, olive oil</p>
           </div>
         </div>
 
+        <!-- ─ CAFÉ & DRINKS ─ -->
         <div class="panel-body" id="t-cafe" role="tabpanel">
+
+          <div class="menu-subhead">Coffee</div>
+
           <div class="dish dish--lead">
-            <div class="dish__row"><h3>Spanish Latte</h3><span>₹249</span></div>
+            <div class="dish__row">
+              <h3>Spanish Latte</h3>
+              <span class="price">₹249</span>
+            </div>
             <p>double espresso, textured milk, condensed sweetness</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Cold Brew</h3><span>₹199</span></div>
+            <div class="dish__row">
+              <h3>Cold Brew</h3>
+              <span class="price">₹199</span>
+            </div>
             <p>18 hour steep, smooth body, dark chocolate finish</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Peach Kombucha</h3><span>₹299</span></div>
+            <div class="dish__row">
+              <h3>Hazelnut Cappuccino</h3>
+              <span class="price">₹229</span>
+            </div>
+            <p>espresso, steamed milk foam, house hazelnut syrup</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Dalgona Coffee</h3>
+              <span class="price">₹219</span>
+            </div>
+            <p>whipped coffee cream, cold milk, choice of hot or iced</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Pour Over Single Origin</h3>
+              <span class="price">₹279</span>
+            </div>
+            <p>Ethiopian Yirgacheffe, fruity, floral, bright acidity</p>
+          </div>
+
+          <div class="menu-subhead">Tea &amp; Matcha</div>
+
+          <div class="dish dish--lead">
+            <div class="dish__row">
+              <h3>Matcha Latte</h3>
+              <span class="price">₹279</span>
+            </div>
+            <p>ceremonial matcha, steamed milk, lightly sweet earthiness</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Iced Brown Sugar Matcha</h3>
+              <span class="price">₹299</span>
+            </div>
+            <p>cold-foamed matcha, brown sugar syrup, oat milk, ice</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Chamomile Honey Latte</h3>
+              <span class="price">₹239</span>
+            </div>
+            <p>chamomile tea, steamed oat milk, raw honey, vanilla</p>
+          </div>
+
+          <div class="menu-subhead">Specialty &amp; Wellness</div>
+
+          <div class="dish dish--lead">
+            <div class="dish__row">
+              <h3>Peach Kombucha</h3>
+              <span class="price">₹299</span>
+            </div>
             <p>house fermented tea, peach nectar, sparkling sip</p>
           </div>
           <div class="dish">
-            <div class="dish__row"><h3>Matcha Latte</h3><span>₹279</span></div>
-            <p>ceremonial matcha, steamed milk, lightly sweet earthiness</p>
+            <div class="dish__row">
+              <h3>Blue Pea Lemonade</h3>
+              <span class="price">₹249</span>
+            </div>
+            <p>butterfly pea tea, lemon, honey — colour-changing on pour</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Mango Lassi</h3>
+              <span class="price">₹189</span>
+            </div>
+            <p>alphonso mango, yoghurt, cardamom, rose water</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Strawberry Basil Smash</h3>
+              <span class="price">₹259</span>
+            </div>
+            <p>fresh strawberries, muddled basil, elderflower, sparkling water</p>
+          </div>
+          <div class="dish">
+            <div class="dish__row">
+              <h3>Turmeric Golden Milk</h3>
+              <span class="price">₹219</span>
+            </div>
+            <p>steamed milk, turmeric, ginger, black pepper, cinnamon</p>
           </div>
         </div>
 
@@ -212,24 +536,24 @@
     </div>
   </section>
 
-  <!-- ════════ CLOSING LINE ════════ -->
+  <!-- ══ CLOSING LINE ════════════════════ -->
   <section class="closing" data-reveal aria-label="Closing statement">
     <p>Some places you visit once.</p>
     <p>Some you carry with you.</p>
   </section>
 
-  <!-- ════════ VISIT ════════ -->
+  <!-- ══ VISIT ══════════════════════════ -->
   <section class="visit" id="contact" data-reveal aria-label="Visit us">
     <div class="visit__inner">
       <span class="tag">Find Us</span>
       <h2>Visit Hezila</h2>
       <div class="visit__cols">
         <div>
-          <span class="visit__label">Address</span>
+          <span class="visit__lbl">Address</span>
           <p>12, Indiranagar 100 Ft Road<br>Bangalore, Karnataka</p>
         </div>
         <div>
-          <span class="visit__label">Hours</span>
+          <span class="visit__lbl">Hours</span>
           <p>Open daily<br>11:00 AM – 11:00 PM</p>
         </div>
       </div>
@@ -237,14 +561,14 @@
     </div>
   </section>
 
-  <!-- ════════ FOOTER ════════ -->
+  <!-- ══ FOOTER ═════════════════════════ -->
   <footer class="footer">
     <a class="footer-logo" href="#top">Hezila</a>
     <p>© 2026 Hezila Cafe, Bangalore.</p>
   </footer>
 
   <script>
-    /* nav scroll state */
+    /* nav scroll */
     const hdr = document.querySelector('.site-header');
     window.addEventListener('scroll', () =>
       hdr.classList.toggle('scrolled', window.scrollY > 56), { passive: true });
@@ -260,33 +584,26 @@
     nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
       nav.classList.remove('open');
       tog.classList.remove('open');
-      tog.setAttribute('aria-expanded','false');
+      tog.setAttribute('aria-expanded', 'false');
     }));
 
     /* scroll reveal */
-    new IntersectionObserver((entries) => {
-      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); } });
-    }, { threshold: 0.07 }).observe
-    // use forEach instead
-    ;
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) { e.target.classList.add('revealed'); }
-      });
-    }, { threshold: 0.07 });
+    const io = new IntersectionObserver(entries =>
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); io.unobserve(e.target); } }),
+      { threshold: 0.07 }
+    );
     document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
 
     /* menu tabs */
-    const tabs   = document.querySelectorAll('.tab');
-    const panes  = document.querySelectorAll('.panel-body');
+    const tabs  = document.querySelectorAll('.tab');
+    const panes = document.querySelectorAll('.panel-body');
     tabs.forEach(tab => tab.addEventListener('click', () => {
-      tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
+      tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected', 'false'); });
       panes.forEach(p => p.classList.remove('active'));
       tab.classList.add('active');
-      tab.setAttribute('aria-selected','true');
+      tab.setAttribute('aria-selected', 'true');
       document.getElementById(tab.dataset.tab).classList.add('active');
     }));
   </script>
-
 </body>
 </html>
