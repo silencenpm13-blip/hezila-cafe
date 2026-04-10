@@ -243,7 +243,7 @@
         <p>12, Indiranagar 100 Ft Road<br>Bangalore, Karnataka</p>
         <p>Open daily<br>11:00 AM – 11:00 PM</p>
       </div>
-      <a class="btn" href="mailto:hello@hezila.cafe">Reserve a Table</a>
+      <a class="btn" href="/cdn-cgi/l/email-protection#a7cfc2cbcbc8e7cfc2ddcecbc689c4c6c1c2">Reserve a Table</a>
     </div>
   </section>
 
@@ -251,7 +251,7 @@
     <p>© 2026 Hezila Cafe, Bangalore.</p>
   </footer>
 
-  <script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     // Mobile nav
     const toggle = document.getElementById('menu-toggle');
     const navLinks = document.getElementById('nav-links');
@@ -260,7 +260,6 @@
       toggle.setAttribute('aria-expanded', String(isOpen));
       toggle.classList.toggle('is-open', isOpen);
     });
-
     navLinks.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         navLinks.classList.remove('open');
@@ -292,17 +291,7 @@
     const panels = document.querySelectorAll('.menu-panel');
     tabs.forEach(tab => {
       tab.addEventListener('click', () => {
-        tabs.forEach(t => {
-          t.classList.remove('active');
-          t.setAttribute('aria-selected', 'false');
-        });
+        tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
         panels.forEach(p => p.classList.remove('active'));
-
         tab.classList.add('active');
-        tab.setAttribute('aria-selected', 'true');
-        document.getElementById(tab.dataset.tab).classList.add('active');
-      });
-    });
-  </script>
-</body>
-</html>
+        tab.setAttribut
